@@ -1,11 +1,31 @@
-.home-nav {
-	width: 100%;
+.home-container {
 	display: flex;
+	margin: 4rem;
 	justify-content: center;
-	gap: 1rem;
-	font-family: Rubik-Regular;
+	align-items: center;
 }
 
-.home-links {
-	font-size: 0.7rem;
+.home-picture {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	transition:
+		transform 0.3s ease 0s,
+		background-color 0.1s;
+}
+
+.home-picture:hover {
+	transform: translateY(-10px);
+}
+
+@keyframes appear {
+	from {
+		transform: rotateY("90");
+	}
+	to {
+		transform: rotateY("0");
+	}
 }

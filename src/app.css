@@ -2,3 +2,13 @@
 	font-family: "Rubik-Regular";
 	src: url("./fonts/rubik/Rubik-Regular.ttf") format("truetype");
 }
+
+html {
+	background: rgb(109, 205, 176);
+	background: linear-gradient(
+		0deg,
+		rgba(109, 205, 176, 1) 0%,
+		rgba(48, 105, 130, 1) 100%
+	);
+	background-attachment: fixed;
+}
