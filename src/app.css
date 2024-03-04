@@ -12,15 +12,23 @@ body {
 	margin: 0;
 }
 
-.background-container {
+.background-image {
 	position: absolute;
-	width: 110;
-	/* height: 100px; */
-	background-image: url("../../../static/_DSF1869.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	box-shadow: inset 0px 100px black;
-	/* background-size: cover; */
-	/* filter: blur(5px); */
-	scale: 120%;
+	top: 0;
+	background-image: linear-gradient(
+			to bottom,
+			#ffffff00 0%,
+			#ffffff38 40%,
+			#ffffff79 60%,
+			#ffffffa8 70%,
+			#ffffffdd 80%,
+			#ffffff 90%
+		),
+		url("../static/_DSF1869.jpg");
+	z-index: -1;
+	background-size: cover;
+	background-position: top center;
+	width: 100vw;
+	height: 100vh;
+	/* background-blend-mode: difference, normal; */
 }

@@ -6,7 +6,7 @@ import { NavBar } from "../components/NavBar/NavBar";
 export const Route = createRootRoute({
 	component: () => (
 		<>
-			<div className='background-container' />
+			<div className='background-image' />
 			<NavBar />
 			<Outlet />
 			{/* <TanStackRouterDevtools /> */}
