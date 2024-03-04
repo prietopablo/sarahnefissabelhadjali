@@ -4,11 +4,23 @@
 }
 
 html {
-	background: rgb(109, 205, 176);
-	background: linear-gradient(
-		0deg,
-		rgba(109, 205, 176, 1) 0%,
-		rgba(48, 105, 130, 1) 100%
-	);
 	background-attachment: fixed;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+}
+
+.background-container {
+	position: absolute;
+	width: 110;
+	/* height: 100px; */
+	background-image: url("../../../static/_DSF1869.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: inset 0px 100px black;
+	/* background-size: cover; */
+	/* filter: blur(5px); */
+	scale: 120%;
 }
