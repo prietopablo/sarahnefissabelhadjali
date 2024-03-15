@@ -1,5 +1,10 @@
 import "./Home.css";
 
+import myPlant from "../../ressources/myPlant.png";
+import stone from "../../ressources/stone.png";
+import hanger from "../../ressources/hanger.png";
+import clastre from "../../ressources/clastre.png";
+
 export const Home = () => {
 	return (
 		<div className='home'>
@@ -19,7 +24,7 @@ const Welcome = () => {
 const MyPlant = () => {
 	return (
 		<div className='plant'>
-			<img className='plant-img' src='../static/myPlant.png' alt='' />
+			<img className='plant-img' src={myPlant} alt='' />
 		</div>
 	);
 };
@@ -27,7 +32,7 @@ const MyPlant = () => {
 const Stone = () => {
 	return (
 		<div className='stone'>
-			<img className='stone-img' src='../static/stone.png' alt='' />
+			<img className='stone-img' src={stone} alt='' />
 		</div>
 	);
 };
@@ -35,14 +40,14 @@ const Stone = () => {
 const Hanger = () => {
 	return (
 		<div className='hanger'>
-			<img className='hanger-img' src='../static/hanger.png' alt='' />
+			<img className='hanger-img' src={hanger} alt='' />
 		</div>
 	);
 };
 const Clastre = () => {
 	return (
 		<div className='hanger'>
-			<img className='hanger-img' src='../static/clastre.png' alt='' />
+			<img className='hanger-img' src={clastre} alt='' />
 		</div>
 	);
 };

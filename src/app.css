@@ -22,7 +22,7 @@ body {
 			#ffffff 100%
 		),
 		linear-gradient(to left, #ffffff00 0%, #ffffff 100%),
-		url("../static/homeBackground.jpg");
+		url("/static/homeBackground.jpg");
 	z-index: -1;
 	background-size: cover;
 	background-position: top center;
