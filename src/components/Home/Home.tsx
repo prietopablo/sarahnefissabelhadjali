@@ -24,7 +24,7 @@ const Welcome = () => {
 const MyPlant = () => {
 	return (
 		<div className='plant'>
-			<img className='plant-img' src={myPlant} alt='' />
+			<img className='plant-img hover-effect' src={myPlant} alt='' />
 		</div>
 	);
 };
@@ -32,7 +32,7 @@ const MyPlant = () => {
 const Stone = () => {
 	return (
 		<div className='stone'>
-			<img className='stone-img' src={stone} alt='' />
+			<img className='stone-img hover-effect' src={stone} alt='' />
 		</div>
 	);
 };
@@ -40,14 +40,14 @@ const Stone = () => {
 const Hanger = () => {
 	return (
 		<div className='hanger'>
-			<img className='hanger-img' src={hanger} alt='' />
+			<img className='hanger-img hover-effect' src={hanger} alt='' />
 		</div>
 	);
 };
 const Clastre = () => {
 	return (
 		<div className='hanger'>
-			<img className='hanger-img' src={clastre} alt='' />
+			<img className='hanger-img hover-effect' src={clastre} alt='' />
 		</div>
 	);
 };
