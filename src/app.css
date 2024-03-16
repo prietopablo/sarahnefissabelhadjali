@@ -21,20 +21,23 @@ body {
 .background-image {
 	position: absolute;
 	top: 0;
-	background-image: linear-gradient(
+	background-image:
+		linear-gradient(
 			to bottom,
 			#ffffff00 0%,
 
 			#ffffff 100%
 		),
-		linear-gradient(to left, #ffffff00 0%, #ffffff 100%),
-		url("/src/ressources/homeBackground.jpg");
+		/* linear-gradient(to left, #ffffff00 0%, #ffffff 100%), */
+			url("/src/ressources/homeBackground.jpg");
 	z-index: -1;
 	background-size: cover;
 	background-position: top center;
 	width: 100vw;
 	height: 100vh;
-	background-blend-mode: normal, difference, normal;
+	background-blend-mode:
+		normal /*, difference*/,
+		normal;
 	animation: 3s background-reveal;
 }
 

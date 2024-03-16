@@ -1,6 +1,7 @@
 .home {
 	display: flex;
 	flex-direction: column;
+	gap
 }
 
 .welcome {
@@ -25,18 +26,21 @@
 	width: 300px;
 	position: absolute;
 	right: -100px;
+	animation: 3s ease 0s normal forwards 1 fadein;
 }
 
 .stone-img {
 	width: 700px;
 	position: absolute;
 	left: -100px;
+	animation: 3s ease 0s normal forwards 1 fadein;
 }
 .hanger-img {
 	width: 700px;
 	position: absolute;
 	/* right: 100px; */
 	left: -100px;
+	animation: 3s ease 0s normal forwards 1 fadein;
 }
 
 .hover-effect {
@@ -45,4 +49,16 @@
 
 .hover-effect:hover {
 	transform: translateY(-10px);
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	66% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }

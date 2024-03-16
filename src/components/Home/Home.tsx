@@ -18,7 +18,7 @@ export const Home = () => {
 };
 
 const Welcome = () => {
-	return <div className='welcome'>Welcome</div>;
+	return <div className='welcome'></div>;
 };
 
 const MyPlant = () => {
