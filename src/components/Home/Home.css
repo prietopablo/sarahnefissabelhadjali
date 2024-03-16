@@ -1,7 +1,6 @@
 .home {
 	display: flex;
 	flex-direction: column;
-	gap
 }
 
 .welcome {
@@ -26,7 +25,7 @@
 	width: 300px;
 	position: absolute;
 	right: -100px;
-	animation: 3s ease 0s normal forwards 1 fadein;
+	animation: 3s ease 0s normal forwards 1 slide-left;
 }
 
 .stone-img {
@@ -51,14 +50,25 @@
 	transform: translateY(-10px);
 }
 
-@keyframes fadein {
+@keyframes slide-left {
 	0% {
-		opacity: 0;
+		right: -300px;
 	}
 	66% {
-		opacity: 0;
+		right: -300px;
 	}
 	100% {
-		opacity: 1;
+		right: -100px;
+	}
+}
+@keyframes slide-right {
+	0% {
+		left: -300px;
+	}
+	66% {
+		left: -300px;
+	}
+	100% {
+		left: -100px;
 	}
 }
